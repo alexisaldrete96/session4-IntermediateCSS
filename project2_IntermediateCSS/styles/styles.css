@@ -1,0 +1,59 @@
+body{
+  margin: 0px;
+  text-align: center;
+}
+
+.block{
+  display: block;
+  background-color: green;
+}
+
+.inline{
+  display: inline;
+  background-color: blue;
+  width: 300px;
+}
+
+.inBl{
+  display: inline-block;
+  background-color: orange;
+  width: 300px;
+}
+ .none{
+   display: none;
+   background-color: purple;
+ }
+
+ .notVisible{
+   visibility: hidden;
+   background-color: brown;
+ }
+
+.top-container{
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  display: inline-block;
+}
+
+.middle-container{
+  margin:0px auto 0px auto;
+  height: 100px;
+  width: 100px;
+  background-color: yellow;
+  display: inline-block;
+
+}
+
+.bottom-container{
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+  position: relative;
+  display: inline-block;
+  right: 100px;
+
+}
